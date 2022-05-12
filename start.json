@@ -1,0 +1,57 @@
+{
+  "name": "Fork-KB",
+  "type": "list",
+  "headline": "Fork Media",
+  "version": "1.0.0",
+  "background": "http://kb-team.club/msx/img/kb_dark.jpg",
+  "parameter": "content:http://f0670318.xsph.ru/msx/start.json",
+  "action": "[settings:validate_links:0|home]",
+  "dictionary": "http://f0670318.xsph.ru/msx/lang/ru.json",
+   "template": {
+        "type": "separate",
+      "layout": "0,0,2,3",
+      "color": "msx-glass"
+   },
+   "items": [
+              {
+                "type": "button",
+                "layout": "0,0,3,3",
+                "icon": "#ced6e0:live-tv",
+                "iconSize": "large",
+                "label": "{col:#ced6e0}IPTV",
+                "action": "content:http://f0670318.xsph.ru/msx/iptv/iptv.json"
+              },
+              {
+                "type": "button",
+                "layout": "3,2,3,3",
+                "icon": "#ced6e0:live-tv",
+                "iconSize": "large",
+                "label": "{col:#ced6e0}Телеканалы",
+                "action": "content:http://kb-team.club/msx/tv.php?device=d41d8cd98f00"
+              },
+              {
+                "type": "button",
+                "layout": "6,2,3,3",
+                "icon": "#ced6e0:tv",
+                "iconSize": "large",
+                "label": "{col:#ced6e0}KBC Каналы",
+                "action": "content:http://kb-team.club/msx/kbc/live.php?device=d41d8cd98f00"
+              },
+              {
+                "type": "button",
+                "layout": "9,2,3,3",
+                "icon": "#ced6e0:local-movies",
+                "iconSize": "large",
+                "label": "{col:#ced6e0}Кинозалы",
+                "action": "content:http://kb-team.club/msx/kinozal.php?device=d41d8cd98f00"
+              },
+              {
+                "type": "button",
+                "layout": "12,2,3,3",
+                "icon": "#ced6e0:local-movies",
+                "iconSize": "large",
+                "label": "{col:#ced6e0}Lampa",
+                "action": "link:http://f0670318.xsph.ru/lampa/"
+              }
+            ]
+}
