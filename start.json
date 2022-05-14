@@ -3,10 +3,9 @@
   "type": "list",
   "headline": "Fork Media",
   "version": "1.0.0",
-  "background": "http://kb-team.club/msx/img/kb_dark.jpg",
-  "parameter": "content:http://f0670318.xsph.ru/msx/start.json",
+  "parameter": "content:http://h96525fo.beget.tech/msx/start.json",
   "action": "[settings:validate_links:0|home]",
-  "dictionary": "http://f0670318.xsph.ru/msx/lang/ru.json",
+  "dictionary": "http://h96525fo.beget.tech/msx/lang/ru.json",
    "template": {
         "type": "separate",
       "layout": "0,0,2,3",
@@ -15,11 +14,11 @@
    "items": [
               {
                 "type": "button",
-                "layout": "0,0,3,3",
+                "layout": "0,2,3,3",
                 "icon": "#ced6e0:live-tv",
                 "iconSize": "large",
-                "label": "{col:#ced6e0}IPTV",
-                "action": "content:http://f0670318.xsph.ru/msx/iptv/iptv.json"
+                "label": "{col:#ced6e0}Эдем ТВ",
+                "action": "content:http://h96525fo.beget.tech/msx/iptv/idem.json"
               },
               {
                 "type": "button",
@@ -48,10 +47,10 @@
               {
                 "type": "button",
                 "layout": "12,2,3,3",
-                "icon": "#ced6e0:local-movies",
+                "icon": "#ced6e0:movie-filter",
                 "iconSize": "large",
                 "label": "{col:#ced6e0}Lampa",
-                "action": "link:http://f0670318.xsph.ru/lampa/"
+                "action": "link:http://h96525fo.beget.tech/lampa/"
               }
             ]
 }
